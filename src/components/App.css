@@ -1,0 +1,74 @@
+.languages{
+  display: flex;
+  justify-content: center;
+}
+
+.languages li{
+  margin: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pros-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.prop-item{
+  margin: 20px;
+  text-align: center;
+}
+.space-list-item{
+  margin-bottom: 7px;
+}
+.avatar{
+  width: 150px;
+  border-radius: 50%;
+}
+ul{
+  padding: 0;
+}
+.active{
+  font-weight: bold;
+}
+.nav{
+  display: flex;
+}
+.nav li{
+  margin-right: 15px;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #dcc234;
+}
+.homeContainer{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.row{
+  display: flex;
+  justify-content: space-around;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-items: center;
+}
+.header{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 200;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
